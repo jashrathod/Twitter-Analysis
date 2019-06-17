@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 # # from_geocode method return the
 # # latitude and longitude of given location .
 #
-# gmaps = googlemaps.Client(key='AIzaSyAi_FN_73TGJA44u5ZCK4DFczyFMI8IA5Y')
+# gmaps = googlemaps.Client(key='')
 # geocode_result = gmaps.geocode('100 Broadway Street, Missoula, MT')
 #
 # geom = geocode_result[0]['geometry']
@@ -37,8 +37,8 @@ import matplotlib.pyplot as plt
 
 import googlemaps, gmplot, webbrowser, os, json
 
-api_key = 'AIzaSyAtah9mXN0HPOfq-EaxsCO8rbcKIMIyauM'
-gmaps = googlemaps.Client(key=api_key)  # AIzaSyAtah9mXN0HPOfq-EaxsCO8rbcKIMIyauM
+api_key = ''
+gmaps = googlemaps.Client(key=api_key)
 geocode_result = gmaps.geocode('100 Broadway Street, Missoula, MT')
 
 # #######

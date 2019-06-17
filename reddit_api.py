@@ -37,8 +37,10 @@ for submission in top_subreddit:
 
 topics_data = pd.DataFrame(topics_dict)
 
+
 def get_date(created):
     return dt.datetime.fromtimestamp(created)
+
 
 _timestamp = topics_data["created"].apply(get_date)
 

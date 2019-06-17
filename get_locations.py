@@ -3,7 +3,7 @@ import numpy as np
 import googlemaps
 import gmaps as gm
 
-API_KEY = 'AIzaSyBfiH9Gy-YDMv0lYDDwhAOioVasVl0NJPg'
+API_KEY = ''
 gm = googlemaps.Client(key=API_KEY)
 
 data = pd.read_csv('MetroManilaSpatialAccidentData.csv', encoding = "ISO-8859-1", low_memory=False, index_col = 'Key')
